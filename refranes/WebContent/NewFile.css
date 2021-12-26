@@ -1,1 +1,54 @@
 @charset "UTF-8";
+
+body {
+  font-family: sans-serif;
+  font-size: 1.5rem;
+}
+
+h1 {
+  border: solid 5px black;
+  text-transform: uppercase;
+  text-align: center;
+}
+
+p {
+  text-align: justify;
+}
+
+.uno {
+ 
+  border-top: double 20px red;
+ border-left: double 20px red;
+}
+
+.dos {
+  
+  border-width: 5px 10px 20px 40px;
+  border-style: dashed;
+border-color: blue green;
+}
+
+.tres{
+border-width: 40px 10px;   
+  border-style: double;
+ border-color: gold;
+}
+
+.cuatro {
+  border-color: lime  white blue ;
+  border-width: 20px;
+  border-style: solid none;
+}
+
+.cinco {
+    border-width: 40px;
+border-color: red black black;
+  border-style: dashed solid dotted;
+}
+
+.seis {
+ 
+  border-width: 10px 40px 20px;
+ border-color: black black black red;
+  border-style: dotted solid dashed double;
+}
